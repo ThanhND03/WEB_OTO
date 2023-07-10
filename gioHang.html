@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="oto css/gioHang.css">
+    <link rel="stylesheet" href="oto css/reposize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Giỏ hàng</title>
+</head>
+<body>
+    <section class="home">
+        <div class="form_container">
+            <i class="fa-solid fa-xmark form_close"></i>
+            <h2>Đăng Nhập</h2>
+            <hr width="100%">
+            <!-- Login from -->
+            <div class="form login_form">
+                <form action="#">
+
+                    <div class="input_button">
+                        <img src="img/facebook.png" alt="facebook">
+                        <input type="button" value="Đăng nhập bằng Facebook" required>
+                    </div>
+
+                    <div class="input_button">
+                        <img src="img/google.png" alt="google" >
+                        <input type="button" value="Đăng nhập bằng Google" required>
+                    </div>
+
+                    <div class="text_note">
+                        <span>Hoặc đăng nhập bằng tài khoản Chợ xe</span>
+                    </div>
+
+                    <div class="input_box">
+                        <label for="SDT">Số điện thoại</label>
+                        <input type="text" id="SDT"  required>
+                        <!-- placeholder="Nhập số điện thoại ..." -->
+                    </div>
+
+                    <div class="input_box">
+                        <label for="pass">Mật khẩu</label>
+                        <input type="password" id="pass"  required>
+                        <!-- placeholder="Nhập mật khẩu ..." -->
+                        <i class="fa-sharp fa-solid fa-eye-slash pw_hide"></i>
+                    </div>
+
+                    <div class="option_field">
+                        <span class="checkbox">
+                            <input type="checkbox" id="check"> 
+                            <label for="check">Lưu mật khẩu</label>
+                        </span>
+                        <a href="#" class="forgot_pw">Quên mật khẩu</a>
+                    </div>
+
+                    <button class="button">Đăng Nhập</button>
+
+                    <div class="login_signup">
+                        Bạn chưa có tài khoản ? <a href="#" id="signup">Đăng Ký</a>
+                    </div> 
+                </form>
+            </div>
+
+            <!-- Signup Form -->
+            <div class="form signup_form">
+                <form action="#">
+                    <h2 >Đăng Ký</h2>
+
+
+                    <div class="input_button">
+                        <img src="img/facebook.png" alt="Facebook" >
+                        <input type="button" value="Đăng ký bằng Facebook" required>
+                    </div>
+
+                    <div class="input_button">
+                        <img src="img/google.png" alt="google">
+                        <input type="button" value="Đăng ký bằng Google" required>
+                    </div>
+
+                    <div class="text_note">
+                        <span><hr class="left"> Hoặc <hr class="right"></span>
+                    </div>
+
+                    <div class="input_box">
+                        <label for="name">Họ tên</label>
+                        <input type="text" id="name" required>
+                        <!-- placeholder="Nhập số điện thoại ..." -->
+                    </div>
+
+                    <div class="input_box">
+                        <label for="SDT">Số điện thoại</label>
+                        <input type="text" id="SDT" required>
+                        <!-- placeholder="Nhập số điện thoại ..." -->
+                    </div>
+
+                    <div class="input_box">
+                        <label for="gmail">Email</label>
+                        <input type="email" id="gmail" required>
+                        <!-- placeholder="Nhập số điện thoại ..." -->
+                    </div>
+
+                    <div class="input_box">
+                        <label for="pass">Mật khẩu</label>
+                        <input type="password" id="pass" required>
+                        <!-- placeholder="Nhập mật khẩu ..." -->
+                        <i class="fa-sharp fa-solid fa-eye-slash pw_hide"></i>
+                    </div>
+                    <button class="button">Đăng Ký</button>
+
+                    <div class="login_signup">
+                        Bạn đã có tài khoản ? <a href="#" id="login">Đăng Nhập</a>
+                    </div> 
+                </form>
+            </div>
+        </div>
+    </section>
+    <div id="wrapper">
+        <div id="header">
+            <div class="container">
+                <nav id="main-menu">
+                    <ul class="menu-top">
+                        <li><a href="index.html">
+                            <img src="img/logo_white_117_32.png" alt="">
+                        </a></li>
+                        <li><a href="Car_audit.html">
+                            <div class="flex-menu-top">
+                                <div><img src="img/car_check_white_19_19.png" alt=""></div>&nbsp&nbsp
+                                <div>Car Aduit</div>
+                            </div>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="flex-menu-top">
+                                <div><img src="img/add_listing_white_16_18.png" alt=""></div>&nbsp&nbsp
+                                <div>Danh sách sản phẩm</div>
+                            </div>
+                            <ul class="sub-menu">
+                                <li><a href="Toyota.html"><img src="img/eOSjSo0gO8zg3aHRY4hpcC5hoLIfgYB47RZLyJF4.png" alt="">Toyota</a> </li>
+                                <li><a href="Huyndai.html"> <img src="img/hxYUSrBgsJGbgHENtd1chtBB19r1ksXHzQaPEAwr.png" alt="">Huyndai</a></li>
+                                <li><a href="BMW.html"><img src="img/GKp6EsreSG6EE6M4FGbwyTqtqW92dgs0gySJrgIm.png" alt="">BMW</a></li>
+                                <li><a href="Porsche.html"><img src="img/rVIyp5kLRXmGOHpFlinPAUtd8PAUIt37oAbMyWdd.png" alt="">Porsche</a></li>
+                                <li><a href="Audi.html"><img src="img/B1WGu56r65M1CX2G7MwdsZBlsdtAn8sYkC6I7iz2.png" alt="">Audi</a>
+                                <li><a href="Vinfast.html"><img src="img/b1jG5dKj26eRha1W4N18eDTmnRFtpQv4WaYoAQvx.png" alt="">Vinfast</a>
+                                <li><a href="Maserati.html"><img src="img/j4rPTwqOB5HsjMQOFfrNTt3frH2xUj1jrzd3wAUx.png" alt="">Maserati</a>
+                                <li><a href="Ford.html"><img src="img/HIsRavXij0eXRvpan2rQ6hhK1x0xE5AQZQulMAwh.png" alt="">Ford</a>
+                                <li><a href="Mazda.html"><img src="img/Ivm3NQ38jfj7OB9CnvnrY832QuWVde0VS1zVxD6A.png" alt="">Mazda</a>
+                                <li><a href="Mersedes-Benz.html"><img src="img/rflImCxyuFYRqhhufOzm49pxkBlTFElThgyp4gvz.png" alt="">Mercedes-Benz</a>
+                            </ul>
+                        </a></li>
+                        <li><a href="#">
+                            <div class="flex-menu-top">
+                                <div><img src="img/support_white_24_24.png" alt=""></div>&nbsp&nbsp
+                                <div>Thủ tục mua bán</div>
+                            </div>
+                        </a></li>
+                        <li><a href="TintucNew.html">
+                            <div class="flex-menu-top">
+                                <div><img src="img/news_white_20_16.png" alt=""></div>&nbsp&nbsp
+                                <div>Tin tức</div>
+                            </div>
+                        </a></li>
+                    </ul>
+                </nav>
+                <div class="nav-bottom">
+                    <div class="search">
+                        <input type="text" class="form-input" placeholder="Tìm kiếm trong chợ xe ..." >
+                        <span><i class="fa-sharp fa-solid fa-magnifying-glass"></i></span>
+                        <a href="#" style="text-decoration: none;"><i class="fa-solid fa-sliders"></i></a>
+                    </div>
+                    <ul class="menu-bottom">
+                        
+                        <li class="form_login_signup">
+                            <div  class="flex-menu-top" id="form-open">
+                               <div> <img src="img/avatar_shape_white_20_20.png" alt="Dang nhap"></div> &nbsp&nbsp
+                               <div>Đăng nhập</div>
+                            </div>
+                        </li>
+                        <li><a href="gioHang.html">
+                            <div  class="flex-menu-top">
+                                <div><img src="img/agent_18_16.png" alt="Gio hang"></div>  &nbsp&nbsp
+                                <div>Giỏ Hàng</div>
+                            </div>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end header -->
+
+        <!-- Form -->
+        
+        <!-- End form -->
+        <section class="cart">
+            <h2>Giỏ hàng của bạn</h2>
+            <form action="">
+                <div>
+                    <img src="img/gio_preview_rev_1.png" alt="">
+                    <p>Không có sản phẩm nào trong giỏ hàng của bạn</p>
+                </div>
+                <button style="margin-top: 120px;">Mua ngay</button><br>
+                <button style="margin-top: 8px;">Đăng nhập</button>
+            </form>
+        </section>
+        
+        <!-- end wp-content -->
+        <div id="footer">
+            <div class="container-footer">
+                <div><img src="img/logo_white_117_32.png" alt=""></div>
+                <div class="flex-footer">
+                        <ul class="text">
+                            <li>©2022 by ChoXe.net. Công Ty Cổ Phần Ô Tô Xuyên Việt;<br> Mã số thuế: 099999999</li><br>
+                            <li>Lầu 1, B5-B6 Khu Kim Sơn - Đường Nguyễn Hữu Thọ,<br> phường Tân Phong, Quận 7, TPHCM</li><br>
+                            <li style="display: flex;justify-content: space-between;">
+                                <div><a href="#"><img src="img/phone_white_14_14.png" alt="phone">&nbsp;&nbsp;092.345.6789</a></div>
+                                <div><a href="#"><img src="img/email_white_14_10.png" alt="email">&nbsp;&nbsp;cskh_ChoXe@gmail.com.vn</a></div>
+                            </li>
+                        </ul>
+
+                        <ul class="text_2">
+                            <li><a href="#">GIỚI THIỆU</a></li><br><br>
+                            <li><a href="#">QUY CHẾ HOẠT ĐỘNG</a></li><br><br>
+                            <li><a href="#">BÁO GIÁ</a></li>
+                        </ul>
+
+                        <ul class="text_3">
+                            <li><a href="#">
+                               <div class="button_1">
+                                    <img src="img/phone_red_16_16.png" alt="phone-red">
+                                    <span class="hover">&nbspHotline: 092.345.6789</span>
+                               </div>
+                            </a></li><br><br>
+                            <li><a href="#">
+                                <div class="button_2">
+                                    <img src="img/agent_18_16.png" alt="agent">
+                                    <span>&nbspDành cho Salon, môi giới</span>
+                                </div>
+        
+                            </a></li>
+                        </ul>
+                </div>
+                <div><img src="img/logo-bct.png" alt=""></div>
+            </div>
+        </div>
+        <!-- end footer -->
+    </div>
+<script src="script/index.js"></script>
+</body>
+</html>
