@@ -502,7 +502,7 @@ div.button_2{
 
 /* top*/
 div.top{
-    background-image: url(/img/bg_audit.jpg);
+    background-image: url(bg_audit.jpg);
     background-size:cover;
     min-height: 700px;
 }
@@ -883,7 +883,7 @@ padding-left: 0px;
 /* End colum_2 */
 /*  colum_3 */
 .Colum_3{
-    background-image: url(/img/bg_audit_process.jpg);
+    background-image: url(bg_audit_process.jpg);
     background-size: cover;
     min-height: 500px;
 }
